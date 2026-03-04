@@ -1,5 +1,5 @@
 # AI-Guardrails
-Experimental code using https://pypi.org/project/aiguardrail/, a Python library that evaluates AI-generated content against a catalog of guardrails, providing a final score. It includes checks for hallucination detection, output moderation, and response quality.
+Experimental code using the [aiguardrail](https://pypi.org/project/aiguardrail/) Python library that evaluates AI-generated content against a catalog of guardrails, providing a final score. It includes checks for hallucination detection, output moderation, and response quality.
 
 🚀 Features
 - **Output Moderation**: Detect toxic, offensive, or inappropriate language.
@@ -38,4 +38,7 @@ and a list of any missed cases or false positives.
 | GR-C-001 | Prompt Length | Cost |
 | GR-Q-004 | Controllability | Quality |
 | GR-Q-006 | Readability Check | Quality |
+
+
+The Red Team notebook is also availbale at [Google Colab](https://colab.research.google.com/github/Nomad-Nine/AI-Guardrails/blob/main/aiguardrail-redteam.ipynb)
 
