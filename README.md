@@ -9,6 +9,13 @@ Experimental code using https://pypi.org/project/aiguardrail/, a Python library 
 - **Token Management**: Optimize content length based on token limits.
 - **Response Quality Checks**: Evaluate readability, verbosity, and bias in AI outputs.
 
+
+**Install the library**:
+
+`pip install aiguardrail`
+
+<br/><br/>
+
 ### The Red Team Notebook
 The **aiguardrail-redteam** notebook systematically probes every guardrail with adversarial inputs designed to trigger failures.
 Each section includes a **benign baseline** (should pass) and **adversarial variants** (should fail),
@@ -32,7 +39,3 @@ and a list of any missed cases or false positives.
 | GR-Q-004 | Controllability | Quality |
 | GR-Q-006 | Readability Check | Quality |
 
-
-**Install the library**:
-
-`pip install aiguardrail`
