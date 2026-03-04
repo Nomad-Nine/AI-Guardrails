@@ -42,5 +42,5 @@ and a list of any missed cases or false positives.
 | GR-Q-006 | Readability Check | Quality |
 
 
-To display notebooks in Github, use the [nbviewer](https://nbviewer.org/) or open the files in Github Dev. The Red Team notebook is also available at [Google Colab](https://colab.research.google.com/github/Nomad-Nine/AI-Guardrails/blob/main/aiguardrail-redteam.ipynb).
+To display notebooks in Github, use the [nbviewer](https://nbviewer.org/) or open the files with github.dev. The Red Team notebook is also available at [Google Colab](https://colab.research.google.com/github/Nomad-Nine/AI-Guardrails/blob/main/aiguardrail-redteam.ipynb).
 
