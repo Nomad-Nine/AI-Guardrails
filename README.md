@@ -14,6 +14,8 @@ Experimental code using the [aiguardrail](https://pypi.org/project/aiguardrail/)
 
 `pip install aiguardrail`
 
+Note that this library doesn't use an [LLM-as-a-judge](https://en.wikipedia.org/wiki/LLM-as-a-Judge). It's designed to be self-contained and offline: no API calls, no external dependencies beyond what pip install. That's a reasonable design choice for a local evaluation tool.
+
 <br/><br/>
 
 ### The Red Team Notebook
