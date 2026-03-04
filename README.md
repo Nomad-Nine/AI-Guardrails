@@ -40,5 +40,5 @@ and a list of any missed cases or false positives.
 | GR-Q-006 | Readability Check | Quality |
 
 
-The Red Team notebook is also availbale at [Google Colab](https://colab.research.google.com/github/Nomad-Nine/AI-Guardrails/blob/main/aiguardrail-redteam.ipynb)
+The Red Team notebook is also available at [Google Colab](https://colab.research.google.com/github/Nomad-Nine/AI-Guardrails/blob/main/aiguardrail-redteam.ipynb).
 
