@@ -1,1 +1,38 @@
 # AI-Guardrails
+Experimental code using https://pypi.org/project/aiguardrail/, a Python library that evaluates AI-generated content against a catalog of guardrails, providing a final score. It includes checks for hallucination detection, output moderation, and response quality.
+
+🚀 Features
+- **Output Moderation**: Detect toxic, offensive, or inappropriate language.
+- **Factual Consistency & Hallucination Detection**: Prevent AI-generated inaccuracies or hallucinated information.
+- **PII Redaction**: Identify and flag personally identifiable information (PII).
+- **Prompt Injection Protection**: Detect potential prompt injection attacks.
+- **Token Management**: Optimize content length based on token limits.
+- **Response Quality Checks**: Evaluate readability, verbosity, and bias in AI outputs.
+
+### The Red Team Notebook
+The **aiguardrail-redteam** notebook systematically probes every guardrail with adversarial inputs designed to trigger failures.
+Each section includes a **benign baseline** (should pass) and **adversarial variants** (should fail),
+with notes on what evasion technique was attempted.
+
+Run all cells top-to-bottom, then check the final **Summary** cell for a per-guardrail detection rate
+and a list of any missed cases or false positives.
+
+| Guardrail ID | Name | Category |
+|---|---|---|
+| GR-S-001 | Output Moderation | Security |
+| GR-Q-001 | Hallucination Detection | Quality |
+| GR-S-005 | PII Redaction | Security |
+| GR-S-006 | Prompt Injection Detection | Security |
+| GR-Q-005 | Factual Consistency | Quality |
+| GR-C-002 | Token Budget | Cost |
+| GR-C-009 | Response Length | Cost |
+| GR-S-002 | Bias Detection | Security/Quality |
+| GR-S-004 | Data Leakage | Security |
+| GR-C-001 | Prompt Length | Cost |
+| GR-Q-004 | Controllability | Quality |
+| GR-Q-006 | Readability Check | Quality |
+
+
+**Install the library**:
+
+`pip install aiguardrail`
