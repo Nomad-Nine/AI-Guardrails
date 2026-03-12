@@ -1,5 +1,6 @@
 # AI-Guardrails
-Accompanying article can be found [here](https://tsicilian.wordpress.com/2026/03/05/the-red-team-mindset-why-you-should-attack-your-own-ai/) and [here](https://medium.com/@tsiciliani/the-red-team-mindset-why-you-should-attack-your-own-ai-ba1855b3cfd5).
+Article can be found [here](https://tsicilian.wordpress.com/2026/03/05/the-red-team-mindset-why-you-should-attack-your-own-ai/) and [here](https://medium.com/@tsiciliani/the-red-team-mindset-why-you-should-attack-your-own-ai-ba1855b3cfd5).
+
 Experimental code using the [aiguardrail](https://pypi.org/project/aiguardrail/) Python library that evaluates AI-generated content against a catalog of guardrails, providing a final score. It includes checks for hallucination detection, output moderation, and response quality.
 
 🚀 Features
